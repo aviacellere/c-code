@@ -6,6 +6,7 @@ struct student
     char name[50];
     int roll;
     float marks;
+    int padding[4];
 } s[10];
 
 int main()
